@@ -1,0 +1,68 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.block {
+height: 20vh;
+background-color: white;
+font-size: 20px
+}
+
+.block p {
+  font-family: Arial;
+
+}
+
+.parallax {
+  background-image: url('https://images8.alphacoders.com/707/thumb-1920-707447.png');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url('https://images3.alphacoders.com/859/thumb-1920-859800.png');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  background-image: url('https://images.alphacoders.com/937/thumb-1920-937823.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
